@@ -1,0 +1,399 @@
+/* universal styles */
+body {
+  margin: 0;
+  font-family: "inter", sans-serif;
+  width: 100%;
+}
+
+/* Header Styles */
+header {
+  padding: 32px;
+}
+
+main {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* H1 style */
+
+h1 {
+  text-align: center;
+}
+/* H2 style */
+h2 {
+  background-color: #eef5fc;
+  padding: 32px 60px;
+  font-size: 36px;
+}
+
+/* H3 style */
+h3 {
+  color: #0671e0;
+  font-size: 28px;
+  letter-spacing: 0.1px;
+}
+
+h4 {
+  color: #717171;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  width: 1440px;
+}
+
+.flex .content {
+  width: 33%;
+}
+
+/* header */
+header {
+  margin: 16px 24px;
+}
+
+.wisdom {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 2px solid #0053ad;
+}
+
+ul {
+  list-style: none;
+  padding-inline: 0;
+}
+
+ul li {
+  text-align: start;
+}
+
+section {
+  padding: 32px 60px;
+}
+
+.fontImage {
+  border: none;
+  width: auto;
+  height: 176px;
+  border-radius: 0;
+}
+
+/* Styles for font and color descriptions */
+.fontDescription {
+  margin-left: 120px;
+}
+
+.colorDescription {
+  margin-left: 260px;
+}
+
+/* Styles for the Desktop Headline Text Lists (ul li) */
+
+.desktopHeadlines ul li:nth-of-type(1) strong {
+  font-size: 64px;
+  line-height: 76px;
+}
+
+.desktopHeadlines ul li:nth-of-type(2) strong {
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.desktopHeadlines ul li:nth-of-type(3) strong {
+  font-size: 28px;
+  line-height: 36px;
+}
+
+.desktopHeadlines ul li:nth-of-type(4) strong {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+/* Styles for the Mobile Headline Text Lists (ul li) */
+.mobileHeadlines ul li:nth-of-type(1) strong {
+  font-size: 28px;
+  line-height: 36px;
+}
+
+.mobileHeadlines ul li:nth-of-type(2) strong {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.mobileHeadlines ul li:nth-of-type(3) strong {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.mobileHeadlines ul li:nth-of-type(4) strong {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/* Styles for the Desktop Body Text Lists (ul li) */
+
+.desktopBodyTexts ul li:nth-of-type(1) strong {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: normal;
+}
+
+.desktopBodyTexts ul li:nth-of-type(2) strong {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+}
+
+.desktopBodyTexts ul li:nth-of-type(3) strong {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: normal;
+}
+
+/* Styles for the Mobile Body Text Lists (ul li) */
+
+.mobileBodyTexts ul li:nth-of-type(1) strong{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+}
+
+.mobileBodyTexts ul li:nth-of-type(2) strong {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: normal;
+}
+
+.mobileBodyTexts ul li:nth-of-type(3) strong {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: normal;
+}
+
+/* Styles for the second p text in the ul li */
+.desktopHeadlines ul li p:nth-of-type(2),
+.mobileHeadlines ul li p:nth-of-type(2),
+.desktopBodyTexts ul li p:nth-of-type(2),
+.mobileBodyTexts ul li p:nth-of-type(2) {
+  font-size: 16px;
+  color: #89939e;
+}
+
+/* Styles for color boxes */
+.colorBox {
+  width: 88px;
+  height: 88px;
+  border-radius: 10px;
+}
+
+.colorBoxflex {
+  display: flex;
+  gap: 36px;
+  width: 70%;
+}
+
+/* Styles for the Background Color of each color Box */
+
+/* For Neutral Color Boxes */
+.neutral div:nth-of-type(1) div {
+  background-color: #212121;
+}
+
+.neutral div:nth-of-type(2) div {
+  background-color: #4d4d4d;
+}
+
+.neutral div:nth-of-type(3) div {
+  background-color: #717171;
+}
+
+.neutral div:nth-of-type(4) div {
+  background-color: #89939e;
+}
+
+.neutral div:nth-of-type(5) div {
+  background-color: #abbed1;
+}
+
+.neutral div:nth-of-type(6) div {
+  background-color: #f5f7fa;
+}
+
+.neutral div:nth-of-type(7) div {
+  background-color: #ffffff;
+  border: 1px solid #abbed1;
+}
+
+/* For Primary Color Boxes */
+.primary div:nth-of-type(1) div {
+  background-color: #0053ad;
+}
+
+.primary div:nth-of-type(2) div {
+  background-color: #0663c7;
+}
+
+.primary div:nth-of-type(3) div {
+  background-color: #0671e0;
+}
+
+.primary div:nth-of-type(4) div {
+  background-color: #4196f0;
+}
+
+.primary div:nth-of-type(5) div {
+  background-color: #dbedff;
+}
+
+.primary div:nth-of-type(6) div {
+  background-color: #eef5fc;
+}
+
+/* For Success Color Boxes */
+.success div:nth-of-type(1) div {
+  background-color: #115b43;
+}
+
+.success div:nth-of-type(2) div {
+  background-color: #1B6E53;
+}
+
+.success div:nth-of-type(3) div {
+  background-color: #009262;
+}
+
+.success div:nth-of-type(4) div {
+  background-color: #32C997;
+}
+
+.success div:nth-of-type(5) div {
+  background-color: #84DFC1;
+}
+
+.success div:nth-of-type(6) div {
+  background-color: #F1FBF8;
+}
+
+/* For Warning Color Boxes */
+
+.warning div:nth-of-type(1) div {
+  background-color: #E48900;
+}
+
+.warning div:nth-of-type(2) div {
+  background-color: #FFA826;
+}
+
+.warning div:nth-of-type(3) div {
+  background-color: #FFB240;
+}
+
+.warning div:nth-of-type(4) div {
+  background-color: #FFC670;
+}
+
+.warning div:nth-of-type(5) div {
+  background-color: #FFD596;
+}
+
+.warning div:nth-of-type(6) div {
+  background-color: #FFF8EC;
+}
+
+/* For Danger Colors */
+.danger div:nth-of-type(1) div {
+  background-color: #C33025;
+}
+
+.danger div:nth-of-type(2) div {
+  background-color: #E01507;
+}
+
+.danger div:nth-of-type(3) div {
+  background-color: #E02B1D;
+}
+
+.danger div:nth-of-type(4) div {
+  background-color: #FF5A4F;
+}
+
+.danger div:nth-of-type(5) div {
+  background-color: #F0857D;
+}
+
+.danger div:nth-of-type(6) div {
+  background-color: #FFF1F0;
+}
+
+.colorText{
+    font-size: 16px;
+    line-height: 24px;
+    color: #89939E;
+}
+
+hr{
+    border: 2px solid #F5F7FA;
+    
+}
+
+/* Styles for the footer Section */
+footer{
+    background-color: #0053AD;
+    color: #ffffff;
+    text-align: center;
+    padding: 32px;
+}
+
+.copyright{
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover{
+    font-weight: 700;
+}
+
+@media (max-width:992px) {
+
+    header{
+        padding: 0;
+    }
+
+    h2{
+        font-size: 24px;
+    }
+
+    h2, section{
+        padding: 16px 24px;
+    }
+
+    .flex{
+        flex-direction: column;
+    }
+
+    .colorBoxflex{
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .fontDescription, .colorDescription{
+        margin: 0;
+    }
+
+    .fontImage{
+        width: 240px;
+    }
+    
+}
