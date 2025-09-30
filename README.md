@@ -26,9 +26,10 @@ git clone https://github.com/morbiuswisdom/Website-Design-System.git
 python -m http.server 8000
 
 ## 📁 Project Structure
-Website-Design-System/
-├── index.html            # Main showcase file
-├── styles.css            # Comprehensive styling
+
+Website-Design-System/ <br/>
+├── index.html            # Main showcase file <br/>
+├── styles.css            # Comprehensive styling <br/>
 └── README.md             # Project info and guidelines
 
 ## 🛠️ Technologies Used
