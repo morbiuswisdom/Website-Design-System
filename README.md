@@ -1,4 +1,4 @@
-# Website-Design-System
+# Website Design System
 A comprehensive, evolving design system built with HTML and CSS, featuring modern color palettes, clear typography, and scalable patterns for web projects. This is Version 1.0, currently focused on layout, colors, and typography, with interactivity (such as live color pickers and component demos) planned for future releases as JavaScript is learned and integrated.
 
 ## Color Palette
