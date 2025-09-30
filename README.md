@@ -44,5 +44,5 @@ All ideas and suggestions are welcome—please be kind, as this is a learning jo
 - Color/typography guides drawn from leading design systems
 
 ## 📞 Contact
-Project Author - [Wisdom Odewumi](https://github.com/morbiuswisdom)
+Project Author - [Wisdom Odewumi](https://github.com/morbiuswisdom) <br/>
 Live Site - [Website Design System](https://morbiuswisdom.github.io/Website-Design-System/)
